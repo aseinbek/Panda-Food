@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+/* --------------------------------------------------- */
+nav {
+    width: 100%;
+    height: 15vh;
+    background-color: #ffcd00;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navContent {
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoNav {
+    display: flex;
+    align-items: center;
+}
+
+.logoNav img {
+    width: 300px;
+    margin-top: 10px;
+}
+
+.menuNav {
+    display: flex;
+}
+
+.menuNav ol {
+    display: flex;
+    list-style: none;
+}
+
+.menuNav a {
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.menuNav a:hover {
+    transform: scale(1.3);
+}
+
+.menuNav ol li {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.callNav img {
+    width: 50px;
+    transition: 0.5s;
+}
+
+.callNav img:hover {
+    transform: scale(1.2);
+}
+/* --------------------------------------- */
+
+form {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    background-color: #ffcd00;
+    box-shadow: 0px 0px 30px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 50vh;
+    border-radius: 15px;
+    gap: 10px;
+    padding: 30px 0;
+}
+
+input {
+    width: 450px;
+    height: 35px;
+    border-radius: 6px;
+    background-color: #ffcd00;
+    border: 1px solid gray;
+    box-shadow: 0px 0px 5px black;
+}
+
+.card {
+    width: 220px;
+}
+
+.payment {
+    width: 450px;
+    display: flex;
+}
+
+.money {
+    width: 30%;
+}
+
+.money p {
+    margin: 0;
+}
+
+.radio {
+    width: 15px;
+    margin: 0 auto;
+    box-shadow: none;
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    border: 3px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.5s;
+    background: #ffcd00;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.cardsLogo {
+    display: flex;
+}
+
+.cardsLogo img {
+    margin: 10px;
+    width: 50px;
+    height: 30px;
+}
+ 
+
+/* ---------------footer----------------- */
+
+.footerCards {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 100%;
+    height: 15vh;
+    background-color: #ffcd00;
+}
+
+.footerCard {
+    width: 20%;
+
+}
+
+.adresBlock {
+    width: 40%;
+}
+
+.adres {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerCard h3 {
+    text-align: center;
+    margin: 15px 0 10px 0;
+    font-size: 15px;
+}
+
+.footerCard p {
+    text-align: center;
+    margin: 5px 0px;
+    font-size: 13px;
+}
+
+.footerCard a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 13px;
+    transform: 0.5s;
+}
+
+.footerCard a:hover {
+    font-weight: bold;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+}
+
+.socialBlock {
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.socialBlock img {
+    width: 20px;
+}
+
+.mapText {
+    font-size: 15px;
+    margin-top: 0px;
+}
+
+input::-webkit-input-placeholder { 
+    color: rgb(29, 29, 29);
+    font-weight: bold;
+}
