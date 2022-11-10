@@ -8,19 +8,26 @@ body {
 
 nav {
     width: 100%;
-    height: 100px;
+    height: 12vh;
     background-color: #ffcd00;
     position: sticky;
     top: 0;
     z-index: 2;
-    border:1px solid rgb(128, 127, 127);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .navContent {
     display: flex;
     width: 95%;
     justify-content: space-between;
-    margin: 0 auto;
+    align-items: center;
+}
+
+.logoNav {
+    display: flex;
+    align-items: center;
 }
 
 .logoNav img {
@@ -29,9 +36,7 @@ nav {
 }
 
 .menuNav {
-    margin-top: 20px;
-    position: relative;
-    left: 12%;
+    display: flex;
 }
 
 .menuNav ol {
@@ -40,12 +45,13 @@ nav {
 }
 
 .menuNav a {
+    font-size: 20px;
     text-decoration: none;
-    transform: 0.5s;
+    transition: 0.5s;
 }
 
 .menuNav a:hover {
-    font-weight: bold;
+    transform: scale(1.3);
 }
 
 .menuNav ol li {
@@ -57,9 +63,13 @@ nav {
 
 .callNav img {
     width: 50px;
-    margin-top: 22px;
+    transition: 0.5s;
 }
 
+.callNav img:hover {
+    transform: scale(1.2);
+}
+/* -------------------------------------------- */
 .about {
     width: 95%;
     height: 80vh;
@@ -95,7 +105,7 @@ nav {
 .aboutRight img {
     width: 400px;
 }
-
+/* ------------------------------------------- */
 .storeContent {
     margin: 100px 0;
 }
@@ -193,20 +203,114 @@ nav {
     border: 1px solid white;
 }
 
+/* ----------------------------------------------------------- */
+
 .bgr {
     width: 100%;
-    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    z-index: 999;
+    gap: 1px;
 }
 
-.bgrContent{
-    background: url(./media/bgr2.jpg) center / cover fixed;
+.bgr1 {
     width: 100%;
-    height: 100vh;
-    position: sticky;
-    top: 0px;
-    z-index: 3;
+    height: 600px;
+    background: url(./media/sushi\ 2.jpg) center/cover fixed;
+    grid-column: 1/5;
 }
 
+.bgr2 {
+    width: 100%;
+    height: 300px;
+    background: url(./media/sushi\ 1.jpg) center/cover;
+    grid-column: 1/2;
+}
+
+.bgr3 {
+    width: 100%;
+    height: 300px;
+    background: url(./media/sushi\ 3.jpg) center/cover;
+    grid-column: 2/4;
+}
+
+.bgr4 {
+    width: 100%;
+    height: 300px;
+    background: url(./media/sushi\ 5.jpg) center/cover;
+    grid-column: 4/5;
+}
+
+.bgr5 {
+    width: 100%;
+    height: 600px;
+    background: url(./media/sushi\ 2.jpg) center/cover fixed;
+    grid-column: 1/5;
+}
+
+.bgr6 {
+    width: 100%;
+    height: 300px;
+    background: url(./media/sushi\ 4.jpg) center/cover;
+    grid-column: 1/3;
+}
+
+.bgr7 {
+    width: 100%;
+    height: 300px;
+    background: url(./media/sushi\ 6.jpg) center/cover;
+    grid-column: 3/5;
+}
+
+.bgr8 {
+    width: 100%;
+    height: 600px;
+    background: url(./media/sushi\ 9.jpg) center/cover fixed;
+    grid-column: 1/5;
+}
+
+.bgr9 {
+    width: 100%;
+    height: 300px;
+    background: url(./media/sushi\ 7.jpg) center/cover;
+    grid-column: 1/3;
+}
+
+.bgr10 {
+    width: 100%;
+    height: 300px;
+    background: url(./media/sushi\ 8.jpg) center/cover;
+    grid-column: 3/5;
+}
+
+.bgr11 {
+    width: 100%;
+    height: 600px;
+    background: url(./media/sushi\ 9.jpg) center/cover fixed;
+    grid-column: 1/5;
+}
+
+.bgr12 {
+    width: 100%;
+    height: 300px;
+    background: url(./media/sushi\ 10.jpg) center/cover;
+    grid-column: 1/2;
+}
+
+.bgr13 {
+    width: 100%;
+    height: 300px;
+    background: url(./media/sushi\ 11.jpg) center/cover;
+    grid-column: 2/4;
+}
+
+.bgr14 {
+    width: 100%;
+    height: 300px;
+    background: url(./media/sushi\ 12.jpg) center/cover;
+    grid-column: 4/5;
+}
+/* --------------------------------------------------- */
 .map {
     width: 95%;
     height: 70vh;
@@ -241,7 +345,115 @@ nav {
     width: 100%;
     height: 80%;
 }
+/* ------------------------------------------------------------------- */
 
+.bgrPizza {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    z-index: 99;
+    gap: 1px;
+}
+
+.pizza1 {
+    width: 100%;
+    height: 600px;
+    background: url(./media/pizza\ 11.jpg) center/cover fixed;
+    grid-column: 1/5;
+}
+
+.pizza2 {
+    width: 100%;
+    height: 300px;
+    background: url(./media/pizza\ 1.jpg) center/cover;
+    grid-column: 1/2;
+}
+
+.pizza3 {
+    width: 100%;
+    height: 300px;
+    background: url(./media/pizza\ 10.jpg) center/cover;
+    grid-column: 2/4;
+}
+
+.pizza4 {
+    width: 100%;
+    height: 300px;
+    background: url(./media/pizza\ 9.jpg) center/cover;
+    grid-column: 4/5;
+}
+
+.pizza5 {
+    width: 100%;
+    height: 600px;
+    background: url(./media/pizza\ 11.jpg) center/cover fixed;
+    grid-column: 1/5;
+}
+
+.pizza6 {
+    width: 100%;
+    height: 300px;
+    background: url(./media/pizza\ 15.jpg) center/cover;
+    grid-column: 1/3;
+}
+
+.pizza7 {
+    width: 100%;
+    height: 300px;
+    background: url(./media/pizza\ 14.jpg) center/cover;
+    grid-column: 3/5;
+}
+
+.pizza8 {
+    width: 100%;
+    height: 600px;
+    background: url(./media/pizza\ 2.jpg) center/cover fixed;
+    grid-column: 1/5;
+}
+
+.pizza9 {
+    width: 100%;
+    height: 300px;
+    background: url(./media/pizza\ 13.jpg) center/cover;
+    grid-column: 1/3;
+}
+
+.pizza10 {
+    width: 100%;
+    height: 300px;
+    background: url(./media/pizza\ 12.jpg) center/cover;
+    grid-column: 3/5;
+}
+
+.pizza11 {
+    width: 100%;
+    height: 600px;
+    background: url(./media/pizza\ 2.jpg) center/cover fixed;
+    grid-column: 1/5;
+}
+
+.pizza12 {
+    width: 100%;
+    height: 300px;
+    background: url(./media/pizza\ 7.jpg) center/cover;
+    grid-column: 1/2;
+}
+
+.pizza13 {
+    width: 100%;
+    height: 300px;
+    background: url(./media/pizza\ 5.jpg) center/cover;
+    grid-column: 2/4;
+}
+
+.pizza14 {
+    width: 100%;
+    height: 300px;
+    background: url(./media/pizza\ 4.jpg) center/cover;
+    grid-column: 4/5;
+}
+
+/* ------------------------------------------------------------------------ */
 .other {
     display: flex;
     justify-content: center;
@@ -273,6 +485,8 @@ nav {
     font-size: 40px;
     text-shadow: 1px 1px 20px rgb(128, 127, 127) ;
 }
+
+/* ------------------------------------------------------------------- */
 
 .deliverBlock {
     width: 100%;
@@ -327,6 +541,8 @@ nav {
     border: 1px solid black;
 }
 
+/* ---------------------------------------------------- */
+
 .footerCards {
     display: flex;
     justify-content: space-around;
@@ -375,6 +591,7 @@ nav {
 
 .social {
     display: flex;
+    justify-content: space-around;
 }
 
 .socialBlock {
