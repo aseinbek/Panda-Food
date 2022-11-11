@@ -123,20 +123,22 @@ input {
     box-shadow: none;
 }
 
-button {
+.btn {
     width: 200px;
-    height: 40px;
     border: 3px solid black;
     border-radius: 10px;
-    cursor: pointer;
     margin: 20px;
     font-size: 20px;
     font-weight: bold;
     transition: 0.5s;
     background: #ffcd00;
+    text-decoration: none;
+    text-align: center;
+    color: #000000;
+    padding: 10px 0;
 }
 
-button:hover {
+.btn:hover {
     transform: scale(1.1);
 }
 
