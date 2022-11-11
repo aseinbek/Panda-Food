@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="/form.css">
     <link rel="shortcut icon" href="./media/titlelogo.png" type="image/png">
 </head>
+
 <body>
     <nav>
         <div class="navContent">
@@ -20,8 +22,8 @@
                 <ol>
                     <a href="#"><li>Меню</li></a>
                     <a href="#"><li>Новинки</li></a>
-                    <a href="#"><li>Акции</li></a>
-                    <a href="#"><li>Доставка</li></a>
+                    <a href="/stock.html"><li>Акции</li></a>
+                    <a href="/deliver.html"><li>Доставка</li></a>
                     <a href="#"><li>О нас</li></a>
                 </ol>
                 <a href="tel:+996999090942"  class="callNav">
@@ -33,42 +35,40 @@
     <form>
         <div class="content">
             <div class="form1">
-              <input type="text" placeholder="Ф.И.О:">
+                <input type="text" placeholder="Ф.И.О:">
             </div>
             <div class="form2">
-              <input type="text" placeholder="Номер телефона:">
+                <input type="text" placeholder="Номер телефона:">
             </div>
             <div class="form3">
-              <input type="text" placeholder="Адрес доставки:">
+                <input type="text" placeholder="Адрес доставки:">
             </div>
             <div class="payment form4">
-              <div class="money">
-                  <input class="radio" name="money" type="radio">
-                  <p>Наличными</p>
-              </div>
-              <div class="money">
-                  <input class="radio" name="money" type="radio">
-                  <p>Картой</p>
-              </div>
-              <div class="cardsLogo">
-                <img src="./media/elkart.png">
-                <img src="./media/visa.png">
-                <img src="./media/mastercard.png">
-            </div>
+                <div class="money">
+                    <input class="radio" name="money" type="radio">
+                    <p>Наличными</p>
+                </div>
+                <div class="money">
+                    <input class="radio" name="money" type="radio">
+                    <p>Картой</p>
+                </div>
+                <div class="cardsLogo">
+                    <img src="./media/elkart.png">
+                    <img src="./media/visa.png">
+                    <img src="./media/mastercard.png">
+                </div>
             </div>
             <div class="form5">
-              <input type="text" placeholder="Номер карты:">
+                <input type="text" placeholder="Номер карты:">
             </div>
             <div class="form6">
-              <input type="text" placeholder="Срок действие:" class="card">
-              <input type="text" placeholder="CVV:" class="card">
+                <input type="text" placeholder="Срок действие:" class="card">
+                <input type="text" placeholder="CVV:" class="card">
             </div>
-            <a href="#">
-                <button>
-                    Заказать
-                </button>
+            <a href="/luck.html" class="btn">
+                Заказать
             </a>
-          </div>
+        </div>
     </form>
     <footer>
         <div class="footerCards">
@@ -81,11 +81,15 @@
                 <div class="adres">
                     <div>
                         <p>г.Ош ул.Шакирова 275</p>
-                        <a href="https://goo.gl/maps/SqYvaR4DLiubAU2A8"><p class="mapText">(показать на карте)</p></a>
+                        <a href="https://goo.gl/maps/SqYvaR4DLiubAU2A8">
+                            <p class="mapText">(показать на карте)</p>
+                        </a>
                     </div>
                     <div>
-                        <p>г.Ош ул. Осмонова  101/3 4 этаж </p>
-                        <a href="https://goo.gl/maps/pECR8w7wEwUE6sXt7"><p class="mapText">(показать на карте)</p></a>
+                        <p>г.Ош ул. Осмонова 101/3 4 этаж </p>
+                        <a href="https://goo.gl/maps/pECR8w7wEwUE6sXt7">
+                            <p class="mapText">(показать на карте)</p>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -118,4 +122,5 @@
         AOS.init();
     </script>
 </body>
+
 </html>

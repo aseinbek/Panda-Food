@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Акции</title>
+    <link rel="stylesheet" href="/stock.css">
+    <link rel="shortcut icon" href="./media/titlelogo.png" type="image/png">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+</head>
+
+<body>
+    <nav>
+        <div class="navContent">
+            <div class="logoNav">
+                <a href="./index.html">
+                    <img src="./media/pandafood.png">
+                </a>
+            </div>
+            <div class="menuNav">
+                <ol>
+                    <a href="#"><li>Меню</li></a>
+                    <a href="#"><li>Новинки</li></a>
+                    <a href="/stock.html"><li>Акции</li></a>
+                    <a href="/deliver.html"><li>Доставка</li></a>
+                    <a href="#"><li>О нас</li></a>
+                </ol>
+                <a href="tel:+996999090942"  class="callNav">
+                    <img src="./media/callNav.png">
+                </a>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div>
+            <h3>20% скидка на все меню с 22:00-04:00</h3>
+            <p>Идеальные условия для работы и встреч.</p>
+        </div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">Slide 1</div>
+              <div class="swiper-slide">Slide 2</div>
+              <div class="swiper-slide">Slide 3</div>
+              <div class="swiper-slide">Slide 4</div>
+              <div class="swiper-slide">Slide 5</div>
+              <div class="swiper-slide">Slide 6</div>
+              <div class="swiper-slide">Slide 7</div>
+              <div class="swiper-slide">Slide 8</div>
+              <div class="swiper-slide">Slide 9</div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+          <div class="btn">
+            <a href="/form.html">
+                Заказать
+            </a>
+        </div>
+    </main>
+    <footer>
+        <div class="footerCards">
+            <div class="footerCard">
+                <h3>График работы:</h3>
+                <p>Панда ждёт тебя в гостях <br>с <b>10 : 00</b> до <b>4 : 00</b> утра<br>без выходных</p>
+            </div>
+            <div class="footerCard adresBlock">
+                <h3>Наши адреса:</h3>
+                <div class="adres">
+                    <div>
+                        <p>г.Ош ул.Шакирова 275</p>
+                        <a href="https://goo.gl/maps/SqYvaR4DLiubAU2A8">
+                            <p class="mapText">(показать на карте)</p>
+                        </a>
+                    </div>
+                    <div>
+                        <p>г.Ош ул. Осмонова 101/3 4 этаж </p>
+                        <a href="https://goo.gl/maps/pECR8w7wEwUE6sXt7">
+                            <p class="mapText">(показать на карте)</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footerCard">
+                <h3>Контакты</h3>
+                <div class="social">
+                    <div class="socialBlock">
+                        <div>
+                            <img src="./media/in.png">
+                        </div>
+                        <a href="https://www.instagram.com/pandafood_osh">Instagram</a>
+                    </div>
+                    <div class="socialBlock">
+                        <div>
+                            <img src="./media/wa.png">
+                        </div>
+                        <a href="https://wa.me/996999090942">WhatsApp</a>
+                    </div>
+                    <div class="socialBlock">
+                        <div>
+                            <img src="./media/ph.png">
+                        </div>
+                        <a href="tel:+996999090942">Позвонить</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        AOS.init();
+    </script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        keyboard: {
+          enabled: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+</body>
+
+</html>
