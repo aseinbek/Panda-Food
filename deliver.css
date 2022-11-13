@@ -104,11 +104,11 @@ p {
 
 .right {
     position: fixed;
-    background: url(./media/skuter.png) center/contain;
+    background: url(./media/skuter.png) center/cover;
     width: 22%;
-    height: 40vh;
+    height: 65vh;
     left: 77%;
-    bottom: 30%;
+    bottom: 15%;
 }
 
 /* ------------------------------------------------------- */
