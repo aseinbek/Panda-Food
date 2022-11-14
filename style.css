@@ -633,3 +633,643 @@ nav {
     font-size: 15px;
     margin-top: 0px;
 }
+/* --------------------1440px---Ноутбук L------------------- */
+@media (max-width: 1440px) {
+
+}
+
+/* --------------------1024px---Ноутбук------------------- */
+@media (max-width: 1024px) {
+    /* ---------------------- */
+    .logoNav img {
+        width: 200px;
+        margin-top: 10px;
+    }
+
+    .menuNav a {
+        font-size: 15px;
+    }
+
+    .callNav img {
+        width: 40px;
+    }
+
+    /* ------------------------- */
+
+    .storeContent {
+        margin: 60px 0;
+    }
+
+    .storeText h2 {
+        font-size: 40px;
+    }
+
+    .storeCards {
+        margin-top: 60px;
+    }
+
+    .card {
+        height: 300px;
+    }
+
+    /* --------------------- */
+
+    .black h3 {
+        font-size: 30px;
+    }
+
+    .black img {
+        width: 200px;
+    }
+    /* ------------------- */
+
+    .otherRight h2 {
+        font-size: 30px;
+    }
+
+    /* ------------------- */
+
+    .bgr1 {
+        height: 400px;
+    }
+    
+    .bgr2 {
+        height: 200px;
+    }
+    
+    .bgr3 {
+        height: 200px;
+    }
+    
+    .bgr4 {
+        height: 200px;
+    }
+    
+    .bgr5 {
+        height: 400px;
+    }
+    
+    .bgr6 {
+        height: 200px;
+    }
+    
+    .bgr7 {
+        height: 200px;
+    }
+    
+    .bgr8 {
+        height: 400px;
+    }
+    
+    .bgr9 {
+        height: 200px;
+    }
+    
+    .bgr10 {
+        height: 200px;
+    }
+    
+    .bgr11 {
+        height: 400px;
+    }
+    
+    .bgr12 {
+        height: 200px;
+    }
+    
+    .bgr13 {
+        height: 200px;
+    }
+    
+    .bgr14 {
+        height: 200px;
+    }
+
+    /* --------------------- */
+
+    .pizza1 {
+        height: 400px;
+    }
+    
+    .pizza2 {
+        height: 200px;
+    }
+    
+    .pizza3 {
+        height: 200px;
+    }
+    
+    .pizza4 {
+        height: 200px;
+    }
+    
+    .pizza5 {
+        height: 400px;
+    }
+    
+    .pizza6 {
+        height: 200px;
+    }
+    
+    .pizza7 {
+        height: 200px;
+    }
+    
+    .pizza8 {
+        height: 400px;
+    }
+    
+    .pizza9 {
+        height: 200px;
+    }
+    
+    .pizza10 {
+        height: 200px;
+    }
+    
+    .pizza11 {
+        height: 350px;
+    }
+    
+    .pizza12 {
+        height: 200px;
+    }
+    
+    .pizza13 {
+        height: 200px
+    }
+    
+    .pizza14 {
+        height: 200px;
+    }
+
+    /* ------------------- */
+}
+
+/* --------------------768px---Планшет------------------- */
+@media (max-width: 768px) {
+    /* -------------------- */
+    .logoNav img {
+        width: 180px;
+    }
+
+    .menuNav a {
+        font-size: 12px;
+    }
+
+    .menuNav ol li {
+        padding: 0 10px;
+    }
+
+    .callNav img {
+        width: 30px;
+    }
+
+/* ----------------------- */
+    .aboutRight img {
+        width: 200px;
+    }
+
+    .aboutRight h2 {
+        font-size: 20px;
+    }
+
+    .aboutRight p {
+        font-size: 12px;
+    }
+
+    /* ---------------------- */
+
+    .storeContent {
+        margin: 40px 0;
+    }
+
+    .storeText h2 {
+        font-size: 30px;
+        margin: 20px 0;
+    }
+
+    .storeCards {
+        margin: 40px auto 0 auto;
+    }
+
+    .card {
+        height: 200px;
+    }
+    
+    .card h3 {
+        font-size: 17px;
+    }
+
+    .storeButton a {
+        padding: 7px 20px ;
+        border-radius: 7px;
+        font-size: 15px;
+    }
+
+    /* ------------------------ */
+
+    .black {
+        height: 50px;
+    }
+
+    .black h3 {
+        font-size: 25px;
+    }
+
+    .black img {
+        width: 150px;
+    }
+
+    /* ------------------- */
+
+    .bgr1 {
+        height: 200px;
+    }
+    
+    .bgr2 {
+        height: 150px;
+    }
+    
+    .bgr3 {
+        height: 150px
+    }
+    
+    .bgr4 {
+        height: 150px;
+    }
+    
+    .bgr5 {
+        height: 200px;
+    }
+    
+    .bgr6 {
+        height: 150px;
+    }
+    
+    .bgr7 {
+        height: 150px;
+    }
+    
+    .bgr8 {
+        height: 200px;
+    }
+    
+    .bgr9 {
+        height: 150px;
+    }
+    
+    .bgr10 {
+        height: 150px;
+    }
+    
+    .bgr11 {
+        height: 200px;
+    }
+    
+    .bgr12 {
+        height: 150px;
+    }
+    
+    .bgr13 {
+        height: 150px;
+    }
+    
+    .bgr14 {
+        height: 150px;
+    }
+
+    /* ------------------------------ */
+
+    .otherRight h2 {
+        font-size: 25px;
+    }
+
+    /* ---------------------------- */
+
+    .pizza1 {
+        height: 200px;
+    }
+    
+    .pizza2 {
+        height: 150px;
+    }
+    
+    .pizza3 {
+        height: 150px;
+    }
+    
+    .pizza4 {
+        height: 150px;
+    }
+    
+    .pizza5 {
+        height: 200px;
+    }
+    
+    .pizza6 {
+        height: 150px;
+    }
+    
+    .pizza7 {
+        height: 150px;
+    }
+    
+    .pizza8 {
+        height: 200px;
+    }
+    
+    .pizza9 {
+        height: 150px;
+    }
+    
+    .pizza10 {
+        height: 150px;
+    }
+    
+    .pizza11 {
+        height: 200px;
+    }
+    
+    .pizza12 {
+        height: 150px;
+    }
+    
+    .pizza13 {
+        height: 150px;
+    }
+    
+    .pizza14 {
+        height: 150px;
+    }
+
+    /* ---------------------- */
+
+    .mapLeft h2 {
+        font-size: 20px;
+    }
+
+    .mapLeft p {
+        font-size: 13px;
+    }
+
+    /* --------------------- */
+
+    .deliverBlock h3 {
+        font-size: 25px;
+    }
+
+    .deliverBlock h2 {
+        font-size: 50px;
+    }
+
+    .deliverButton a {
+        font-size: 15px;
+        padding: 7px 30px;
+        border-radius: 9px;
+    }
+
+    /* -------------------- */
+
+    .footerCard h3 {
+        font-size: 10px;
+        margin: 7px 0 7px 0;
+    }
+
+    .footerCard p {
+        font-size: 8px;
+    }
+
+    .footerCard a {
+        font-size: 8px;
+    }
+
+    .socialBlock img {
+        width: 15px;
+    }
+
+}
+
+/* ----------426px----Большое мобильное устройство-------------- */
+@media (max-width: 426px) {
+
+    nav {
+        height: 8vh;
+    }
+
+    .logoNav img {
+        width: 100px;
+    }
+
+    .menuNav a {
+        font-size: 10px;
+    }
+
+    .menuNav ol li {
+        padding: 0 5px;
+    }
+
+    .callNav {
+        display: flex;
+        align-items: center;
+    }
+
+    .callNav img {
+        width: 20px;
+    }
+
+    .menuNav ol {
+        padding-left: 0px;
+    }
+
+    /* ----------------- */
+    
+    .about {
+        width: 97%;
+        height: 40vh;
+        margin: 15px auto;
+    }
+
+    .aboutLeft {
+        width: 40%;
+        height: 36vh;
+        border-radius: 7px;
+    }
+
+    .aboutRight h2 {
+        font-size: 15px;
+        margin: 10px 0;
+    }
+
+    .aboutRight img {
+        width: 100px;
+    }
+
+    .aboutRight p {
+        font-size: 10px;
+    }
+
+    /* -------------------- */
+
+    .storeContent {
+        margin: 10px 0;
+    }
+
+    .card {
+        height: 100px;
+    }
+
+    .card h3 {
+        font-size: 15px;
+    }
+
+    .storeText h2 {
+        font-size: 20px;
+    }
+
+    .storeCards {
+        margin: 10px auto 0 auto;
+    }
+
+    .storeButton a {
+        font-size: 13px;
+        padding: 3px 20px ;
+        border-radius: 7px;
+    }
+
+    .black {
+        height: 40px;
+    }
+
+    .black h3 {
+        margin: 0 20px;
+        font-size: 15px;
+    }
+
+    .black img {
+        width: 100px;
+    }
+    /* ---------------- */
+    
+    .bgr1 {
+        height: 150px;
+    }
+    
+    .bgr2 {
+        height: 100px;
+    }
+    
+    .bgr3 {
+        height: 100px;
+    }
+    
+    .bgr4 {
+        height: 100px;
+    }
+    
+    .bgr5 {
+        height: 150px;
+    }
+    
+    .bgr6 {
+        height: 100px;
+    }
+    
+    .bgr7 {
+        height: 100px;
+    }
+    
+    .bgr8 {
+        height: 150px;
+    }
+    
+    .bgr9 {
+        height: 100px;
+    }
+    
+    .bgr10 {
+        height: 100px;
+    }
+    
+    .bgr11 {
+        height: 150px;
+    }
+    
+    .bgr12 {
+        height: 100px;
+    }
+    
+    .bgr13 {
+        height: 100px;
+    }
+    
+    .bgr14 {
+        height: 100px;
+    }
+
+    /* ---------------- */
+
+    .other {
+        height: 40vh;
+        margin: 20px 10px;
+    }
+
+    .otherRight h2 {
+        font-size: 15px;
+    }
+    /* ---------------- */
+
+    .map {
+        height: 40vh;
+    }
+
+    .map h2 {
+        font-size: 15px;
+    }
+
+    .map p {
+        font-size: 10px;
+    }
+
+    /* ------------------- */
+
+    .deliverBlock h2 {
+        font-size: 40px;
+    }
+
+    .deliverBlock h3 {
+        font-size: 20px;
+    }
+
+    .deliverButton a {
+        padding: 5px 20px ;
+        border-radius: 7px;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    /* ------------------- */
+
+    .footerCards {
+        flex-direction: column;
+        margin: 0 auto;
+        height: 30vh;
+        align-items: center;
+        justify-content: start;
+    }
+
+    .footerCard {
+        width: 100%;
+    }
+
+    .social {
+        justify-content: center;
+    }
+    
+
+}
+
+/* ----------375px----Среднее мобильное устройство-------------- */
+@media (max-width: 375px) {
+
+}
