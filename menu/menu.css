@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+  margin: 0px ;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+nav {
+  width: 100%;
+  height: 100px;
+  background-color: #ffcd00;
+  margin: 0px;
+  position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.navContent {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 0px;
+}
+
+.menuNav a:hover {
+  transform: scale(1.3);
+}
+
+.callNav img:hover {
+  transform: scale(1.3);
+}
+
+
+/* *******Header**** */
+.logoNav img {
+  width: 300px;
+  margin-top: 10px;
+}
+
+.menuNav {
+  margin-top: 30px;
+  position: relative;
+  left: 12%;
+}
+
+.menuNav ol {
+  display: flex;
+  list-style: none;
+}
+
+.menuNav a {
+  text-decoration: none;
+}
+
+.menuNav ol li {
+  font-family: 'Montserrat', sans-serif;
+  padding: 0 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.callNav img {
+  width: 50px;
+  margin-top: 22px;
+}
+
+
+/* Наши новинки */
+
+.storeContent {
+  margin: 10px 30px 150px;
+  padding: 50px;
+  background-color: rgb(248, 252, 255);
+  border-radius: 30px;
+}
+.storeContent h1{
+  text-align: center;
+  font-size: 50px; 
+}
+.storeContent h3{
+  text-align: center;
+ font-size: 20px;
+}
+
+
+.storeCards {
+  display: flex;
+  margin: 100px auto 0 auto;
+  width: 100%;
+}
+.card {
+  width: 30%;
+  height: 400px;
+  margin: 0 auto;
+  padding: 0px 10px;
+  
+}
+
+.card img {
+  width: 100%;
+  height: 300px;  
+  border-radius: 20px;
+}
+
+.storeCards img:hover{
+  transform: scale(1.1);
+}
+.storeContent h3:hover{
+  color: red;
+}
+
+.ButtonBlock {
+  display: flex;
+  justify-content: center;
+}
+
+.ButtonBlock a{
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+  padding: 10px 60px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.ButtonBlock a:hover {
+  background-color: #ffcd00;
+  transform: scale(1.1);
+}
+
+
+
+/* ******БЛЮДО***** */
+.MenuBlock {
+  margin: 50px 40px; 
+}
+  
+.mainBlock{
+  background:url("./imgMenu/горячие1.jpg") center / cover;
+  border-radius: 30px;
+  align-items: center; 
+  justify-content: space-between;
+  display:flex;
+  margin: 30px 0px 30px;
+  border:1px solid rgb(117, 116, 116); 
+  padding: 220px 0px;
+}
+
+
+.mainBlockText {
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 30%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: 30px;
+  border-radius: 30px;
+  padding: 20px;
+    
+}
+
+.mainBlockText p{
+  font-size: 18px;
+}
+
+.mainBlockText h1{
+  text-shadow: 0px 0px rgb(155, 153, 153);
+  font-size: 40px;
+}
+
+
+
+/* пицца */
+
+.PizzaBlock{
+  background:url("./imgMenu/pizzamain.jpg") center / cover;
+  border-radius: 30px;
+  align-items: center; 
+  justify-content: space-between;
+  display:flex;
+  margin: 150px 0px 30px;
+  border:1px solid rgb(128, 127, 127); 
+  padding: 220px 0px;
+}
+
+
+.PizzaBlockText {
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 30%;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: auto;
+  border-radius: 30px;
+  padding: 20px;  
+  font-size: 20px;
+  
+}
+
+
+
+
+/************* роллы************* */
+
+
+.SUSHIBlock{
+  background:url("./imgMenu/sushimain.jpg") center / cover;
+  border-radius: 30px;
+  align-items: center; 
+  justify-content: space-between;
+  display:flex;
+  margin: 150px 0px 30px;
+  border:1px solid rgba(252, 252, 252, 0.1); 
+  padding: 220px 0px;
+  color: black;
+}
+
+
+/*******напитки*********** */
+
+.drinkBlock{
+  background:url("./imgMenu/drinkmain2.jpg") center / cover;
+  border-radius: 30px;
+  align-items: center; 
+  justify-content: space-between;
+  display:flex;
+  margin: 150px 0px 30px;
+  border:1px solid rgb(128, 127, 127); 
+  padding: 220px 0px;
+}
+.drinkBlockText{ 
+background-color: rgba(238, 238, 238, 0.5);
+  width: 25%;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: auto;
+  border-radius: 30px;
+  padding: 20px;  
+  font-size: 18px;
+  color: black;
+}
+
+
+
+/* *******footer**** */
+
+.footerCards {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  width: 100%;
+  height: 20vh;
+  background-color: #ffcd00;
+  color: black;
+}
+
+.footerCard h3 {
+  text-align: center;
+  margin: 15px 0 10px 0;
+  font-size: 15px;
+}
+
+.footerCard p {
+  text-align: center;
+  margin: 5px 0px;
+  font-size: 13px;
+}
+
+.footerCard a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 13px;
+  transform: 0.5s;
+}
+
+.footerCard a:hover {
+  font-weight: bold;
+}
+
+.social {
+  display: flex;
+}
+
+.socialBlock {
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.socialBlock img {
+  width: 20px;
+}
+
+.mapText {
+  font-size: 15px;
+  margin-top: 0px;
+}
+
+/*********** swiper******** */
+.swiper {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0px;
+  
+  
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  margin-top: 0px;
+  border-radius: 15px;
+  border:1px solid rgb(202, 202, 202);  
+} 
+
+.swiperText {
+  font-size: 15px;
+  text-align:initial;
+  margin-top: 0px;
+  /* background-color: rgb(237, 240, 241); */
+  width: 400px;
+  height: 150px;
+  padding: 5px;
+  border-radius: 15px;
+  justify-content:center;
+
+}
+
+.swiperText p{
+  color: rgb(49, 48, 48);
+  margin-bottom: 30px;  
+}
+.swiperText span {
+  font-weight: bold;
+}
+
+.swiperText h3:hover{
+  transition: 0.5s;
+  font-size: 20px;
+  cursor: pointer;
+  color: red;
+}
+button {
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: rgb(0, 0,0,0);
+ 
+}
+button a{
+  text-decoration: none;
+  color: black;
+}
+button:hover{
+  background-color: #ffcd00;
+  transform: scale(1.1);
+}
+
+
+
+/****** 1024 *****/
+
+@media (max-width: 1024px) { 
+  body {
+    width: 50%;
+  }
+  .storeCards  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .card img {
+    width: 100%;
+    height: 200px;  
+   
+  }
+  .ButtonBlock a{
+    text-decoration: none;
+    font-size: 10px;
+   
+  }
+}
