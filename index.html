@@ -11,27 +11,28 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body> 
-    <nav>
-        <div class="navContent">
-            <div class="logoNav">
-                <a href="./index.html">
-                    <img src="./media/pandafood.png">
-                </a>
-            </div>
-            <div class="menuNav">
-                <ol>
-                    <a href="../menu/menu.html"><li>Меню</li></a>
-                    <a href="#"><li>Новинки</li></a>
-                    <a href="/stock.html"><li>Акции</li></a>
-                    <a href="/deliver.html"><li>Доставка</li></a>
-                    <a href="/about.html"><li>О нас</li></a>
-                </ol>
-                <a href="tel:+996999090942"  class="callNav">
-                    <img src="./media/callNav.png">
-                </a>
-            </div>
-        </div>
-    </nav>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <section class="top-nav">
+    <div class="logo">
+      <img src="./media/pandafood.png">
+    </div>
+    <input id="menu-toggle" type="checkbox" />
+    <label class='menu-button-container' for="menu-toggle">
+    <div class='menu-button'></div>
+  </label>
+    <ul class="menu">
+      <li><a href="#">Меню</a></li>
+      <li><a href="#">Новинки</a></li>
+      <li><a href="#">Акции</a></li>
+      <li><a href="#">Доставка</a></li>
+      <li><a href="#">О нас</a></li>
+    </ul>
+    <div>
+      <a href="tel:+996999090942"  class="callNav">
+        <img src="./media/callNav.png">
+      </a>
+    </div>
+  </section>
     <main>
         <div class="about">
             <div class="aboutLeft" data-aos="fade-right" data-aos-duration="3000"></div>
