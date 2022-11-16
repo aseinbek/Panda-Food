@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: #ffcd00;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    /* border:1px solid rgb(128, 127, 127); */
+}
+
+.navContent {
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.logoNav img {
+    width: 300px;
+    margin-top: 10px;
+}
+
+.menuNav {
+    margin-top: 20px;
+    position: relative;
+    left: 12%;
+}
+
+.menuNav ol {
+    display: flex;
+    list-style: none;
+}
+
+.menuNav a {
+    text-decoration: none;
+}
+
+.menuNav ol li {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.callNav img {
+    width: 50px;
+    margin-top: 22px;
+}
+
+.main h1{
+    text-align: center;
+    margin: 100px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    margin: 70px;
+}
+
+.korn{
+    margin: 30px 400px;
+}
+
+.nag img{
+    width: 400px;
+    height: 400px;
+}
+
+.fri img{
+    width: 400px;
+    height: 400px;
+}
+
+.dere img{
+    width: 400px;
+    height: 400px;
+}
+
+h4{
+    margin: 20px 120px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+span{
+    margin: 0px 130px;
+    font-weight: 600;
+}
+
+button{
+    font-size: 20px;
+    width: 35px;
+    height: 30px;
+    border-radius: 7px;
+    border: 3px solid #ffcd00;
+    color: black;
+    background-color: white;
+}
+
+.footerCards {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 100%;
+    height: 15vh;
+    background-color: #ffcd00;
+}
+
+.footerCard {
+    width: 20%;
+
+}
+
+.adresBlock {
+    width: 40%;
+}
+
+.adres {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerCard h3 {
+    text-align: center;
+    margin: 15px 0 10px 0;
+    font-size: 15px;
+}
+
+.footerCard p {
+    text-align: center;
+    margin: 5px 0px;
+    font-size: 13px;
+}
+
+.footerCard a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 13px;
+    transform: 0.5s;
+}
+
+.footerCard a:hover {
+    font-weight: bold;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+}
+
+.socialBlock {
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.socialBlock img {
+    width: 20px;
+}
+
+.mapText {
+    font-size: 15px;
+    margin-top: 0px;
+}
