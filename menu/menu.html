@@ -1,15 +1,571 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>menu</title>
-    <link rel="stylesheet" href="menu.css">
-    <link rel="shortcut icon" href="./imgMenu/titlelogo.png" type="image/png">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu</title>
+  <link rel="stylesheet" href="menu.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+  <link rel="shortcut icon" href="./imgMenu/titlelogo.png" type="image/png">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
+
+  <!-- navbar -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <section class="top-nav">
+    <div class="logo">
+        <a href="/index.html">
+            <img src="./imgMenu/pandafood (2).png">
+        </a>
+    </div>
+    <input id="menu-toggle" type="checkbox" />
+    <label class='menu-button-container' for="menu-toggle">
+    <div class='menu-button'></div>
+  </label>
+    <ul class="menu">
+      <li><a href="./menu/menu.html">Меню</a></li>
+      <li><a href="#">Новинки</a></li>
+      <li><a href="./stock.html">Акции</a></li>
+      <li><a href="./deliver.html">Доставка</a></li>
+      <li><a href="./about.html">О нас</a></li>
+    </ul>
+    <div>
+      <a href="tel:+996999090942"  class="callNav">
+        <img src="./imgMenu/callNav.png">
+      </a>
+    </div>
+  </section>
+
+
+<!------- Наши новинки --------->
+
+  
+    <div class="storeContent">
+      <div class="storeText">
+          <h1>
+              Наши новинки
+          </h1>
+      </div>
+      <div class="storeCards">
+          <div class="card" data-aos="fade-right" data-aos-duration="1000">
+              <div class="cardImg1">
+                <img src="./imgMenu/corndog.jpeg" alt="">
+              </div>
+              <h3>Корндог</h3>
+          </div>
+          <div class="card" data-aos="zoom-in" data-aos-duration="1000">
+              <div class="cardImg2">
+                <img src="./imgMenu/роллы7.jpg" alt="">
+              </div>
+              <h3>Даку</h3>
+          </div>
+          <div class="card" data-aos="fade-left" data-aos-duration="1000">
+              <div class="cardImg3">
+                <img src="./imgMenu/пицца4.jpg" alt="">
+              </div>
+              <h3>Мексикано</h3>
+          </div>
+      </div>
+  </div>
+  
+
+  <!-- Горячие блюдо -->
+
+  <div class ="MenuBlock">
+    <div class="hotfoodContent"> 
+      <div class="mainBlock">
+        <div class="mainBlockText">
+          <h1>Горячие  блюда</h1>
+          <p> Мы уверены, что счастье можно найти за красиво накрытым столом.
+          А еще за этим столом можно найти немало пользы для здоровья.
+          Чего только стоит кусок хорошей вырезки или рыбы и овощи,
+          приготовленные на гриле!
+          </p>
+          <button><a href="./Project/reserv/reserv.html">Заказать</a></button>
+        </div>
+      </div>
+
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./imgMenu/горячие1.jpg" alt="1">
+            <div class="swiperText">
+              <h3>Рыба в сливочном соусе</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima,
+              expedita.Recusandae deleniti voluptas unde fugit quaerat explicabo </p>
+              <span> Цена 250 coм</span>
+            </div>
+          </div>
+
+        <div class="swiper-slide">
+          <img src="./imgMenu/горячие2.jpg" alt="2">
+          <div class="swiperText">
+            <h3>Муругай Но Мисо</h3>
+            <p> Мидии со сливочно-грибным соусом и песто по-азиатски.
+            Для полноты ощущений –подается вместе рисом и
+            нашим фирменным японский хлебом </p>
+            <span> Цена 250 coм</span>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <img src="./imgMenu/горячий3.jpg" alt="3">
+          <div class="swiperText">
+            <h3>Тори Терияки</h3>
+            <p> Курица в соусе терияки тушится с грибами шиитаке,
+            вешенками и шпинатом, а подаётся на картофельном пюре. </p>
+            <span> Цена 250 coм</span>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <img src="./imgMenu/горячий4.jpg" alt="4">
+          <div class="swiperText">
+            <h3>Гюнику но Шиитаке</h3>
+            <p>Говяжья вырезка со сливочным соусом и грибами шиитаке,
+            сладким чили, маслом белых трюфелей, семенами льна </p>
+            <span> Цена 250 coм</span>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <img src="./imgMenu/супы1.jpg" alt="5">
+          <div class="swiperText">
+            <h3>Том Ям</h3>
+            <p> Бульон на основе пасты чили с соевым маслом, кета, мидии, кальмары, креветки, рис, ростки бобов и шампиньоны.  </p>
+            <span> Цена 250 coм</span>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <img src="./imgMenu/супы2.jpg" alt="6">
+          <div class="swiperText">
+            <h3>Рамен с курицей</h3>
+            <p>Уверены, от нашего супа с лапшой, куриным рулетом, ростками бобов и яйцом вас ничто не отвлечет </p>
+            <span> Цена 350 coм</span>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <img src="./imgMenu/супы3.jpg" alt="7">
+          <div class="swiperText">
+            <h3>Суп Мисо</h3>
+            <p>Классическая версия. Грибы шиитаке, вешенки, водоросли вакаме, тофу, 
+              особый бульон на основе пасты из бобов – и всё уже понятно без слов </p>
+            <span> Цена 220 coм</span>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <img src="./imgMenu/горюблюда8.jpg" alt="8">
+          <div class="swiperText">
+            <h3>Жареный рис с курицей</h3>
+            <p>Курица в соусе терияки тушится с грибами шиитаке,
+              вешенками и шпинатом, а подаётся на картофельном пюре. Советуем к ней внимательно присмотреться  </p>
+            <span> Цена 350 coм</span>
+          </div>
+       </div>
+
+        <div class="swiper-slide">
+         <img src="./imgMenu/горблюда9.jpg" alt="9">
+          <div class="swiperText">
+            <h3>Лапша с овощами</h3>
+           <p>Лёгкое решение. Пшеничная лапша с брокколи, кабачками, вешенками, красным перцем, 
+            морковью, шпинатом, терияки и соевым соусом </p>
+           <span> Цена 350 coм</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+
+
+
+  <!-- ------ПИЦцА---- -->
+
+  <div class="PizzaContent">
+    <div class="PizzaBlock">
+      <div class="PizzaBlockText">
+        <h1>Пицца</h1>
+        <p> Пицца - это самое знаменитое итальянское блюдо в мире. Залог успеха в приготовлении вкусной пиццы - особое
+        тесто из
+        правильной муки твердых сортов.
+        Мы знаем толк в настоящей пицце на тонком тесте, поэтому уже 27 лет готовим ее так, как это делают в Италии
+        </p>
+        <button><a href="./Project/reserv/reserv.html">Заказать</a></button>
+      </div>
+    </div>
+
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="./imgMenu/пицца5.jpg" alt="1">
+          <div class="swiperText">
+            <h3>Примавера</h3>
+            <p>Когда хочется добавить ярких красок. Пицца с кабачками, баклажаном, сладким перцем, 
+              шампиньонами, артишоками, томатным соусом и песто </p>
+            <span> Цена 400 coм</span>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <img src="./imgMenu/пицца1.jpg" alt="2">
+          <div class="swiperText">
+            <h3>Пицца Панда фуд</h3>
+            <p>Фирменная пицца с сыром моцарелла, ветчиной, шампиньонами, 
+            пикантной колбасой пепперони, 
+            беконом,мюнхенскими колбасками и сладким перцем. 
+            </p>
+            <span> Цена 450 coм</span>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <img src="./imgMenu/пицца2.jpg" alt="3">
+          <div class="swiperText">
+            <h3>Фрутти ди Маре с моцареллой</h3>
+            <p>Для особых случаев. Креветки, кольца и щупальца кальмара, фирменный томатный соус, моцарелла, черри  и руккола нежнейшая тесто</p>
+            <span> Цена 400 coм</span>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <img src="./imgMenu/пицца3.jpg" alt="4">
+          <div class="swiperText">
+            <h3>Барбекью</h3>
+            <p>Пицца с сочным цыпленком и говядиной BBQ, помидоры, шампиньонами, луком бальзамик, моцареллой. </p>
+            <span> Цена 450 coм</span>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <img src="./imgMenu/пицца4.jpg" alt="5">
+          <div class="swiperText">
+            <h3>Мексикано</h3>
+            <p>Острая пицца с пепперони, соусом болоньез, томатным соусом, перчиком халапеньо и луком, 
+              сыром моцарелла, беконом, тушеным луком и петрушкой </p>
+            <span> Цена 350 coм</span>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="./imgMenu/pizza11.jpg" alt="6">
+          <div class="swiperText">
+            <h3>Маргарита Гурмэ</h3>
+            <p>Всё как в традиционном рецепте, но с двумя видами моцареллы – для более сырных и вкусных воспоминаний и нежнейщее тесто </p>
+            <span> Цена 450 coм</span>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <img src="./imgMenu/пицца6.jpg" alt="7">
+          <div class="swiperText">
+            <h3>Ветчина и грибы</h3>
+            <p>Шампиньоны, моцарелла, фирменный томатный соус, орегано и ветчина. Ничего лишнего, только любимое и нежнейщее тесто </p>
+            <span> Цена 400 coм</span>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <img src="./imgMenu/пицца7.jpg" alt="8">
+          <div class="swiperText">
+            <h3>Пепперони</h3>
+            <p>Пицца, которая умеет подстроиться под любую ситуацию. Пепперони, моцарелла, фирменный томатный соус и петрушка </p>
+            <span> Цена 350 coм</span>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <img src="./imgMenu/пицца4.jpg" alt=9">
+          <div class="swiperText">
+            <h3>Мексикано</h3>
+            <p>Острая пицца с пепперони, соусом болоньез, томатным соусом, перчиком халапеньо и луком, 
+              сыром моцарелла, беконом, тушеным луком и петрушкой
+            </p>
+            <span> Цена 350 coм</span>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+
+  <!-- ---- роллы---- -->
+
+    <div rollyContent>
+      <div class="SUSHIBlock">
+        <div class="mainBlockText">
+          <h1>Роллы</h1>
+          <p> Роллы - это самое знаменитое итальянское блюдо в мире. Залог успеха в приготовлении вкусной пиццы - особое
+          тесто из
+          правильной муки твердых сортов.
+          Мы знаем толк в настоящей пицце на тонком тесте, поэтому уже 27 лет готовим ее так, как это делают в Италии
+          </p>
+          <button><a href="./Project/reserv/reserv.html">Заказать</a></button>
+        </div>
+      </div>
+
+
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+           <img src="./imgMenu/роллы1.jpg" alt="1">
+            <div class="swiperText">
+              <h3>Филадельфия</h3>
+              <p>лосось, огурец, авокадо, кунжут, сыр, зеленый лук, 6 шт. </p>
+              <span> Цена 350 coм</span>
+            </div>
+          </div>
+  
+          <div class="swiper-slide">
+            <img src="./imgMenu/роллы2.jpg" alt="2">
+            <div class="swiperText">
+              <h3>Калифорния</h3>
+              <p>краб-микс, авокадо, огурец, тобико, 6 шт. 
+              </p>
+              <span> Цена 350 coм</span>
+            </div>
+          </div>
+  
+          <div class="swiper-slide">
+            <img src="./imgMenu/роллы3.jpg" alt="3">
+            <div class="swiperText">
+              <h3>Ролл с огурцом</h3>
+              <p>Ролл с огурцом 6 шт </p>
+              <span> Цена 350 coм</span>
+            </div>
+          </div>
+  
+          <div class="swiper-slide">
+            <img src="./imgMenu/роллы4.jpg" alt="4">
+            <div class="swiperText">
+              <h3>Запеченный краб</h3>
+              <p>краб-микс, авокадо, тобико, зеленый лук, соус «Спайси-манго» 6 шт. </p>
+              <span> Цена 350 coм</span>
+            </div>
+          </div>
+  
+          <div class="swiper-slide">
+            <img src="./imgMenu/роллы5.jpg" alt="5">
+            <div class="swiperText">
+              <h3>Киноа</h3>
+              <p>грибы шиитаке, авокадо, баклажан, киноа, перец гриль, рукола, 6 шт. </p>
+              <span> Цена 350 coм</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="./imgMenu/роллы6.jpg" alt="6">
+            <div class="swiperText">
+              <h3>Макуро</h3>
+              <p>креветка, авокадо, сыр, омлет «Тамаго», тобико, кунжут, соус «Спайси-манго» </p>
+              <span> Цена 350 coм</span>
+            </div>
+          </div>
+  
+          <div class="swiper-slide">
+            <img src="./imgMenu/роллы7.jpg" alt="7">
+            <div class="swiperText">
+              <h3>Даку</h3>
+              <p>угорь, креветка, авокадо, огурец, тобико, соус «Унаги», зеленый лук, 8 шт. </p>
+              <span> Цена 350 coм</span>
+            </div>
+          </div>
+  
+          <div class="swiper-slide">
+            <img src="./imgMenu//роллы9.jpg" alt="8">
+            <div class="swiperText">
+              <h3>Прайм лайты</h3>
+              <p>лосось , сыр сливочный, авокадо, огурцы, кунжут,соус спец 8 шт</p>
+                <span> Цена 350 coм</span>
+            </div>
+          </div>
+  
+          <div class="swiper-slide">
+            <img src="./imgMenu/роллы10.jpg" alt=9">
+            <div class="swiperText">
+              <h3>Калифорния с угрем</h3>
+              <p>угорь, икра тобико черная, авокадо, огурцы, кунжут, стружка тунца </p>
+              <span> Цена 350 coм</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+ 
+    <!-- ------Напитки------ -->
+
+    <div drinkContent>
+      <div class="drinkBlock">
+        <div class="drinkBlockText">
+          <h1>Напитки</h1>
+          <p>Напитки — это обязательный пункт для каждого приема пищи. Мы предлагаем вам широкий выбор популярной газированной воды, 
+          свежевыжатых и качественных бутилированных соков на любой вкус. В нашем меню вы также найдете:
+          </p>
+          <button><a href="./Project/reserv/reserv.html">Заказать</a></button>
+        </div>
+      </div>
+  
+  
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./imgMenu/Напитки1.jpg" alt="1">
+              <div class="swiperText">
+                <h3>Морковный фреш</h3>
+                <p>Свежевыжатый морковный сок </p>
+                <span> Цена 150 coм</span>
+              </div>
+            </div>
     
+            <div class="swiper-slide">
+              <img src="./imgMenu/Напитки2.jpg" alt="2">
+              <div class="swiperText">
+                <h3>Апельсиновый фреш</h3>
+                <p>Свежевыжатый апельсиновый сок </p>
+                <span> Цена 150 coм</span>
+              </div>
+            </div>
+    
+            <div class="swiper-slide">
+              <img src="./imgMenu/напитки3.jpg" alt="3">
+              <div class="swiperText">
+                <h3>Яблоко-апельсин фреш</h3>
+                <p>Свежевыжатый сок из апельсина и яблока</p>
+                <span> Цена 150 coм</span>
+              </div>
+            </div>
+    
+            <div class="swiper-slide">
+              <img src="./imgMenu/напитки4.jpeg" alt="4">
+              <div class="swiperText">
+                <h3>Кокосовый смузи с Манго</h3>
+                <p>Нежный смузи манго, банана, кокосового молока и ананасового сока </p>
+                <span> Цена 250 coм</span>
+              </div>
+            </div>
+    
+            <div class="swiper-slide">
+              <img src="./imgMenu/напитки5.jpeg" alt="5">
+              <div class="swiperText">
+                <h3>Смузи Манго и Мята</h3>
+                <p>Манго, свежая мята, банан и яблочный сок мультифрут сироп. </p>
+                <span> Цена 250 coм</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./imgMenu/напитки6.jpeg" alt="6">
+              <div class="swiperText">
+                <h3>Лимонад Крем Сода</h3>
+                <p>Лимонад со вкусом апельсина, лимона, ванильно-карамельного сиропа. </p>
+                <span> Цена 150 coм</span>
+              </div>
+            </div>
+    
+            <div class="swiper-slide">
+              <img src="./imgMenu/напитки7.jpeg" alt="7">
+              <div class="swiperText">
+                <h3>Лимонад Тархун</h3>
+                <p>Пряный тархун в сочетании с лимонным и яблочным соками и газированной водой. </p>
+                <span> Цена 150 coм</span>
+              </div>
+            </div>
+    
+            <div class="swiper-slide">
+              <img src="./imgMenu/напитки8.jpeg" alt="8">
+              <div class="swiperText">
+                <h3>Имбирный лимонад</h3>
+                <p>Утоляющее жажду сочетание имбиря, лимона и спрайта и мультифрут сироп.</p>
+                <span> Цена 150 coм</span>
+              </div>
+            </div>
+    
+            <div class="swiper-slide">
+              <img src="./imgMenu/напитки6.jpeg" alt=9">
+              <div class="swiperText">
+                <h3>Лимонад Крем Сода</h3>
+                <p>Лимонад со вкусом,апельсина,лимона,ванильно-карамельного сиропа. </p>
+                <span> Цена 150 coм</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <!-- -----Footer---- -->
+
+      <footer>
+        <div class="footerCards">
+            <div class="footerCard">
+                <h3>График работы:</h3>
+                <p>Панда ждёт тебя в гостях <br>с <b>10 : 00</b> до <b>4 : 00</b> утра<br>без выходных</p>
+            </div>
+            <div class="footerCard adresBlock">
+                <h3>Наши адреса:</h3>
+                <div class="adres">
+                    <div>
+                        <p>г.Ош ул.Шакирова 275</p>
+                        <a href="https://goo.gl/maps/SqYvaR4DLiubAU2A8"><p class="mapText">(показать на карте)</p></a>
+                    </div>
+                    <div>
+                        <p>г.Ош ул. Осмонова  101/3 4 этаж </p>
+                        <a href="https://goo.gl/maps/pECR8w7wEwUE6sXt7"><p class="mapText">(показать на карте)</p></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footerCard">
+                <h3>Контакты</h3>
+                <div class="social">
+                    <div class="socialBlock">
+                        <div>
+                            <img src="./imgMenu/instagram.png">
+                        </div>
+                        <a href="https://www.instagram.com/pandafood_osh">Instagram</a>
+                    </div>
+                    <div class="socialBlock">
+                        <div>
+                            <img src="./imgMenu/wa.png">
+                        </div>
+                        <a href="https://wa.me/996999090942">WhatsApp</a>
+                    </div>
+                    <div class="socialBlock">
+                        <div>
+                            <img src="./imgMenu/phone.png">
+                        </div>
+                        <a href="tel:+996999090942">Позвонить</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      slidesPerGroup: 3,
+      loop: true,
+      loopFillGroupWithBlank: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      autoplay: {
+        delay: 3000,
+        reverseDirection: true
+      }
+    });
+  </script>
+  <script>
+  AOS.init();
+</script>
 </body>
+
 </html>

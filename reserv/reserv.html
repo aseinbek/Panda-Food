@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESERV</title>
+    <link rel="stylesheet" href="reserv.css">
+    <link rel="shortcut icon" href="./imgreserv/titlelogo.png" type="image/png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+
+    <!-- Header -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <section class="top-nav">
+    <div class="logo">
+        <a href="./index.html">
+            <img src="./imgreserv/pandafood (2).png">
+        </a>
+    </div>
+    <input id="menu-toggle" type="checkbox" />
+    <label class='menu-button-container' for="menu-toggle">
+    <div class='menu-button'></div>
+  </label>
+    <ul class="menu">
+      <li><a href="./menu/menu.html">Меню</a></li>
+      <li><a href="#">Новинки</a></li>
+      <li><a href="./stock.html">Акции</a></li>
+      <li><a href="./deliver.html">Доставка</a></li>
+      <li><a href="./about.html">О нас</a></li>
+    </ul>
+    <div>
+      <a href="tel:+996999090942"  class="callNav">
+        <img src="./imgreserv/callNav.png">
+      </a>
+    </div>
+  </section>
+   
+
+    <!-- ОСНОВНОЙ -->
+
+    <div class="reservmainBlock">
+        <div class="leftBlock" data-aos="zoom-in">
+            <div>
+                <img src="./imgreserv/pandafood1.jpg" alt="" >
+                <div data-aos="flip-left"
+                     data-aos-easing="ease-out-cubic"data-aos-duration="1000">
+                </div>
+            </div>
+            <!-- <div>
+                <img src="../reserv/reservImage/about8.jpg" alt="" >
+                <div data-aos="zoom-in"></div>
+            </div> -->
+        </div>
+
+
+        <div class="RightBlock">
+            <form >
+                <h3>Забронировать стол</h3>
+             <form>
+             <p>
+                <label for="firstname">Имя: </label>
+                <input type="text" id="firstname" name="firstname"/>
+            </p>
+            <p class="date">
+                <label for="date">Дата: </label>
+                <input type="date" id="date" name="date"/>
+            </p>
+            <p class="time">
+                <label for="time">Время: </label>
+                <input type="time" id="time" name="time"/>
+            </p>
+            <div>
+                <span> Номера стола:</span>
+                <select class="tableNumber" >
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="1">4</option>
+                    <option value="2">5</option>
+                    <option value="3">6</option>
+                    <option value="1">7</option>
+                    <option value="2">8</option>
+                    <option value="3">9</option>
+                    <option value="1">10</option>
+                    <option value="2">11</option>
+                    <option value="3">12</option>
+                </select>
+            </div>
+            <div class="tableNumberBlock">
+                <span> Сколько человек:</span>
+                <select class="tableNumber" >
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="1">4</option>
+                    <option value="2">5</option>
+                    <option value="3">6</option>
+                    <option value="1">7</option>
+                    <option value="2">8</option>
+                    <option value="3">9</option>
+                    <option value="1">10</option>
+                    <option value="2">11</option>
+                    <option value="3">12</option>
+                </select>
+            </div>
+                <button><a href="">Забронировать</a></button>
+            </form>
+        </div>
+    </div>
+
+
+
+    <!--footer  -->
+
+    <footer>
+        <div class="footerCards">
+            <div class="footerCard">
+                <h3>График работы:</h3>
+                <p>Панда ждёт тебя в гостях <br>с <b>10 : 00</b> до <b>4 : 00</b> утра<br>без выходных</p>
+            </div>
+            <div class="footerCard adresBlock">
+                <h3>Наши адреса:</h3>
+                <div class="adres">
+                    <div>
+                        <p>г.Ош ул.Шакирова 275</p>
+                        <a href="https://goo.gl/maps/SqYvaR4DLiubAU2A8"><p class="mapText">(показать на карте)</p></a>
+                    </div>
+                    <div>
+                        <p>г.Ош ул. Осмонова  101/3 4 этаж </p>
+                        <a href="https://goo.gl/maps/pECR8w7wEwUE6sXt7"><p class="mapText">(показать на карте)</p></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footerCard">
+                <h3>Контакты</h3>
+                <div class="social">
+                    <div class="socialBlock">
+                        <div>
+                            <img src="./imgreserv/instagram.png">
+                        </div>
+                        <a href="https://www.instagram.com/pandafood_osh">Instagram</a>
+                    </div>
+                    <div class="socialBlock">
+                        <div>
+                            <img src="./imgreserv/wa.png">
+                        </div>
+                        <a href="https://wa.me/996999090942">WhatsApp</a>
+                    </div>
+                    <div class="socialBlock">
+                        <div>
+                            <img src=".//imgreserv/phone.png">
+                        </div>
+                        <a href="tel:+996999090942">Позвонить</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
