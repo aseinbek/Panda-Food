@@ -6,35 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RESERV</title>
     <link rel="stylesheet" href="reserv.css">
-    <link rel="shortcut icon" href="../img/titlelogo.png" type="image/png">
+    <link rel="shortcut icon" href="./imgreserv/titlelogo.png" type="image/png">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
 
     <!-- Header -->
-    <nav>
-        <div class="navContent">
-            <div class="logoNav">
-                <img src="./reservImage/pandafood (2).png">
-            </div>
-            <div class="menuNav">
-                <ol>
-                    <a href="#"><li>Главная</li></a>
-                    <a href="#"><li>Меню</li></a>
-                    <a href="#"><li>Новинки</li></a>
-                    <a href="#"><li>Акции</li></a>
-                    <a href="#"><li>Доставка</li></a>
-                    <a href="#"><li>О нас</li></a>
-                </ol>
-            </div>
-            <div class="callNav">
-                <a href="tel:+996999090942">
-                    <img src="./reservImage/callNav.png">
-                </a>
-            </div>
-        </div>
-    </nav>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <section class="top-nav">
+    <div class="logo">
+        <a href="./index.html">
+            <img src="./imgreserv/pandafood (2).png">
+        </a>
+    </div>
+    <input id="menu-toggle" type="checkbox" />
+    <label class='menu-button-container' for="menu-toggle">
+    <div class='menu-button'></div>
+  </label>
+    <ul class="menu">
+      <li><a href="./menu/menu.html">Меню</a></li>
+      <li><a href="#">Новинки</a></li>
+      <li><a href="./stock.html">Акции</a></li>
+      <li><a href="./deliver.html">Доставка</a></li>
+      <li><a href="./about.html">О нас</a></li>
+    </ul>
+    <div>
+      <a href="tel:+996999090942"  class="callNav">
+        <img src="./imgreserv/callNav.png">
+      </a>
+    </div>
+  </section>
    
 
     <!-- ОСНОВНОЙ -->
@@ -42,7 +44,7 @@
     <div class="reservmainBlock">
         <div class="leftBlock" data-aos="zoom-in">
             <div>
-                <img src="./reservImage/pandafood1.jpg" alt="" >
+                <img src="./imgreserv/pandafood1.jpg" alt="" >
                 <div data-aos="flip-left"
                      data-aos-easing="ease-out-cubic"data-aos-duration="1000">
                 </div>
@@ -116,8 +118,8 @@
     <footer>
         <div class="footerCards">
             <div class="footerCard">
-                <h3>График:</h3>
-                <p>Панда ждёт тебя в гостях <br>с <b>10 : 00</b> до <b>4 : 00</b> утра</p>
+                <h3>График работы:</h3>
+                <p>Панда ждёт тебя в гостях <br>с <b>10 : 00</b> до <b>4 : 00</b> утра<br>без выходных</p>
             </div>
             <div class="footerCard adresBlock">
                 <h3>Наши адреса:</h3>
@@ -137,19 +139,19 @@
                 <div class="social">
                     <div class="socialBlock">
                         <div>
-                            <img src="./reservImage/instagram.png">
+                            <img src="./imgreserv/instagram.png">
                         </div>
                         <a href="https://www.instagram.com/pandafood_osh">Instagram</a>
                     </div>
                     <div class="socialBlock">
                         <div>
-                            <img src="./reservImage/wa.png">
+                            <img src="./imgreserv/wa.png">
                         </div>
                         <a href="https://wa.me/996999090942">WhatsApp</a>
                     </div>
                     <div class="socialBlock">
                         <div>
-                            <img src="./reservImage/phone.png">
+                            <img src=".//imgreserv/phone.png">
                         </div>
                         <a href="tel:+996999090942">Позвонить</a>
                     </div>
@@ -157,6 +159,7 @@
             </div>
         </div>
     </footer>
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();

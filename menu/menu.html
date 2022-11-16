@@ -8,36 +8,38 @@
   <title>Menu</title>
   <link rel="stylesheet" href="menu.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
-  <link rel="shortcut icon" href="./img/titlelogo.png" type="image/png">
+  <link rel="shortcut icon" href="./imgMenu/titlelogo.png" type="image/png">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
 
-  <!-- Header -->
-  <nav>
-    <div class="navContent">
-        <div class="logoNav">
-            <img src="..//menu/imgMenu/pandafood (2).png">
-        </div>
-        <div class="menuNav">
-            <ol>
-                <a href="#"><li>Главная</li></a>
-                <a href="#"><li>Меню</li></a>
-                <a href="#"><li>Новинки</li></a>
-                <a href="#"><li>Акции</li></a>
-                <a href="#"><li>Доставка</li></a>
-                <a href="#"><li>О нас</li></a>
-            </ol>
-        </div>
-        <div class="callNav">
-            <a href="tel:+996999090942">
-                <img src="../reserv/imgreserv/callNav.png">
-            </a>
-        </div>
+  <!-- navbar -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <section class="top-nav">
+    <div class="logo">
+        <a href="./index.html">
+            <img src="./imgMenu/pandafood (2).png">
+        </a>
     </div>
-</nav>
+    <input id="menu-toggle" type="checkbox" />
+    <label class='menu-button-container' for="menu-toggle">
+    <div class='menu-button'></div>
+  </label>
+    <ul class="menu">
+      <li><a href="./menu/menu.html">Меню</a></li>
+      <li><a href="#">Новинки</a></li>
+      <li><a href="./stock.html">Акции</a></li>
+      <li><a href="./deliver.html">Доставка</a></li>
+      <li><a href="./about.html">О нас</a></li>
+    </ul>
+    <div>
+      <a href="tel:+996999090942"  class="callNav">
+        <img src="./imgMenu/callNav.png">
+      </a>
+    </div>
+  </section>
 
 
 <!------- Наши новинки --------->
@@ -60,7 +62,7 @@
               <div class="cardImg2">
                 <img src="./imgMenu/роллы7.jpg" alt="">
               </div>
-              <h3>Филадельфия</h3>
+              <h3>Даку</h3>
           </div>
           <div class="card" data-aos="fade-left" data-aos-duration="1000">
               <div class="cardImg3">
@@ -69,9 +71,6 @@
               <h3>Мексикано</h3>
           </div>
       </div>
-      <div class="ButtonBlock">
-        <a href="#">Заказать</a>
-    </div>
   </div>
   
 
@@ -502,8 +501,8 @@
       <footer>
         <div class="footerCards">
             <div class="footerCard">
-                <h3>График:</h3>
-                <p>Панда ждёт тебя в гостях <br>с <b>10 : 00</b> до <b>4 : 00</b> утра</p>
+                <h3>График работы:</h3>
+                <p>Панда ждёт тебя в гостях <br>с <b>10 : 00</b> до <b>4 : 00</b> утра<br>без выходных</p>
             </div>
             <div class="footerCard adresBlock">
                 <h3>Наши адреса:</h3>
