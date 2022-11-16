@@ -11,27 +11,30 @@
 </head>
 
 <body>
-    <nav>
-        <div class="navContent">
-            <div class="logoNav">
-                <a href="./index.html">
-                    <img src="./media/pandafood.png">
-                </a>
-            </div>
-            <div class="menuNav">
-                <ol>
-                    <a href="#"><li>Меню</li></a>
-                    <a href="#"><li>Новинки</li></a>
-                    <a href="/stock.html"><li>Акции</li></a>
-                    <a href="/deliver.html"><li>Доставка</li></a>
-                    <a href="#"><li>О нас</li></a>
-                </ol>
-                <a href="tel:+996999090942"  class="callNav">
-                    <img src="./media/callNav.png">
-                </a>
-            </div>
-        </div>
-    </nav>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <section class="top-nav">
+      <div class="logo">
+          <a href="./index.html">
+              <img src="./media/pandafood.png">
+          </a>
+      </div>
+      <input id="menu-toggle" type="checkbox" />
+      <label class='menu-button-container' for="menu-toggle">
+      <div class='menu-button'></div>
+    </label>
+      <ul class="menu">
+        <li><a href="./menu/menu.html">Меню</a></li>
+        <li><a href="#">Новинки</a></li>
+        <li><a href="./stock.html">Акции</a></li>
+        <li><a href="./deliver.html">Доставка</a></li>
+        <li><a href="./about.html">О нас</a></li>
+      </ul>
+      <div>
+        <a href="tel:+996999090942"  class="callNav">
+          <img src="./media/callNav.png">
+        </a>
+      </div>
+    </section>
     <form>
         <div class="content">
             <div class="form1">
@@ -45,14 +48,14 @@
             </div>
             <div class="payment form4">
                 <div class="money">
-                    <input class="radio" name="money" type="radio">
+                    <input class="radio cash1" name="money" type="radio">
                     <p>Наличными</p>
                 </div>
                 <div class="money">
-                    <input class="radio" name="money" type="radio">
+                    <input class="radio cash2" name="money" type="radio">
                     <p>Картой</p>
                 </div>
-                <div class="cardsLogo">
+                <div class="cardsLogo cash3">
                     <img src="./media/elkart.png">
                     <img src="./media/visa.png">
                     <img src="./media/mastercard.png">
