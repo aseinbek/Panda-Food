@@ -898,11 +898,16 @@ html, body {
     }
 
     .storeCards {
-        margin: 40px auto 0 auto;
+        width: 100%;
+        height: 250px;
+        margin: 20px auto;
+        justify-content: center;
     }
 
     .card {
-        height: 200px;
+        height: 300px;
+        margin: 0;
+        padding: 0 10px;
     }
     
     .card h3 {
@@ -988,6 +993,10 @@ html, body {
     }
 
     /* ------------------------------ */
+
+    .other {
+        margin: 30px auto;
+    }
 
     .otherRight h2 {
         font-size: 25px;

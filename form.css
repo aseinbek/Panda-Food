@@ -43,6 +43,7 @@ body {
     color: #FFF;
     height: 13vh;
     padding: 1em;
+    z-index: 9999999;
   }
   
   .menu {
@@ -125,6 +126,7 @@ form {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1;
 }
 
 .content {
@@ -134,10 +136,11 @@ form {
     flex-direction: column;
     align-items: center;
     width: 500px;
-    height: 65vh;
+    height: 500px;
     border-radius: 15px;
     gap: 20px;
     padding: 30px 0;
+    z-index: 1;
 }
 
 input {
@@ -211,6 +214,7 @@ input {
     width: 100%;
     height: 15vh;
     background-color: #ffcd00;
+    z-index: 99999999999;
 }
 
 .footerCard {
@@ -421,11 +425,12 @@ input::-webkit-input-placeholder {
     /* --------------------------- */
 
     .content {
-      width: 400px;
+      width: 350px;
+      height: 430px;
     }
 
     input {
-      width: 350px;
+      width: 300px;
       height: 30px;
     }
 
@@ -434,7 +439,7 @@ input::-webkit-input-placeholder {
     }
 
     .card {
-      width: 174px;
+      width: 147px;
       margin: 5px 0;
     }
 
@@ -448,7 +453,7 @@ input::-webkit-input-placeholder {
     }
 
     .payment {
-      width: 350px;
+      width: 300px;
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       gap: 10px;
