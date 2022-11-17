@@ -365,8 +365,6 @@ background-color: rgba(238, 238, 238, 0.5);
 
 .swiper-slide {
   text-align: center;
-  font-size: 18px;
-  
 }
 
 .swiper-slide img {
@@ -380,7 +378,7 @@ background-color: rgba(238, 238, 238, 0.5);
 } 
 
 .swiperText {
-  font-size: 15px;
+  font-size: 13px;
   text-align:initial;
   margin-top: 0px;
   /* background-color: rgb(237, 240, 241); */
@@ -803,7 +801,7 @@ text-align: justify;
     height: 150px;
   }
   .swiperText p{
-  height: 30px;
+  height: 20px;
   font-size: 5px;
   }
   .swiperText h3{
