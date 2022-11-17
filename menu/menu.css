@@ -708,26 +708,28 @@ text-align: justify;
 
     /* новинки */
     .storeContent {
-      height: 60%;
-
+      height: 30vh;
+      margin: 10px 30px 70px;
+      padding: 0px;
     }
-    .card img {
+    .storeCards {
+      display: flex;
+      margin: 45px auto 0 auto;
       width: 100%;
-      height: 100%;  
     }
     .storeText h1{
-      padding-bottom: 10px;
-      font-size: 5px;
+      padding-top: 30px ;
+      font-size: 20px;
     }
     .storeContent h3{
       font-size: 8px;
     }
     
-    .storeContent h1{
+    /* .storeContent h1{
       padding-top: 20px;
       padding-bottom: 10px;
       font-size: 15px;
-    }
+    } */
   
     /* ******ГОр.БЛЮДО***** */
   
@@ -735,14 +737,16 @@ text-align: justify;
       background-position:15%;
       background-repeat:no-repeat;
       background-size: cover; 
-      
+      height: 324px;
+      padding: 160px 0px;
+      margin: 0px 0px 20px;
     }
 
     .mainBlockText {
       margin-right: 10px;
       margin-bottom: 10px;
-      width: 180px;
-      height: 180px;
+      width: 170px;
+      height: 170px;
       background-color: rgba(255, 255, 255, 0.3);
      
     }
@@ -760,17 +764,36 @@ text-align: justify;
       background-position:15%;
       background-repeat:no-repeat;
       background-size: cover;
+      margin: 20px 0px 20px;
+      height: 324px;
+      padding: 160px 0px;
     }
     .PizzaBlockText{
       width: 120px;
-      height: 175px;
+      height: 170px;
       border-radius: 8px;
+      padding: 11px;
+      margin-left: 21px;
+      margin-bottom: 21px;
     }
     .PizzaBlockText p{
       font-size: 7px;
     }
     .PizzaBlockText h1{
       font-size: 10px;
+    }
+
+
+    /******* суши********* */
+
+    .SUSHIBlock {
+      background-position:15%;
+      background-repeat:no-repeat;
+      background-size: cover; 
+      height: 300px;
+      padding: 50px 0px;
+      margin: 20px 0px 20px;
+   
     }
   
     /*******напитки*********** */
@@ -779,17 +802,23 @@ text-align: justify;
     background-position:15%;
     background-repeat:no-repeat;
     background-size: cover;
+    height: 324px;
+    padding: 160px 0px;
+    margin: 20px 0px 20px;
   }
   .drinkBlockText{
-    width: 180px;
-    height: 160px;
-    margin-left: 5px;
+    width: 120px;
+    height: 170px;
+    border-radius: 8px;
+    padding: 0px;
+    margin-left: 21px;
+    font-size: 5px;
   }
   .drinkBlockText p{
     font-size: 8px;
   }
   .drinkBlockText h1{
-    font-size: 9px;
+    font-size: 8px;
   }
   
   /* swiper */
@@ -798,7 +827,7 @@ text-align: justify;
     height: 100px;
   }
   .swiperText {
-    height: 150px;
+    height: 94px;
   }
   .swiperText p{
   height: 20px;
@@ -824,7 +853,7 @@ text-align: justify;
   .footerCards {
     flex-direction: column;
     margin: 0 auto;
-    height: 38vh;
+    height: 28vh;
     align-items: center;
     justify-content: start;
 }
