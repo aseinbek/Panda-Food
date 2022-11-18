@@ -1202,6 +1202,7 @@ html, body {
     }
 
     .aboutRight p {
+        line-height: 20px;
         font-size: 15px;
         margin: 5px 0;
         padding: 0 10px;
