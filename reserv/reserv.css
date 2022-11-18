@@ -52,7 +52,7 @@ html, body {
     align-items: center;
     justify-content: space-between;
     background-color: #00BAF0;
-    background: #ffcd00;;
+    background: #ffcd00;
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: #FFF;
     height: 13vh;
@@ -143,8 +143,8 @@ html, body {
 
 .RightBlock {
     background-color: rgb(242, 246, 248);
-    width: 250px;
-    height: 280px;
+    width: 300px;
+    height: 350px;
     padding: 30px;
     border:1px solid rgb(128, 127, 127); 
     border-radius: 20px; 
@@ -341,7 +341,7 @@ font-size:15px;
 /* main */
 .reservmainBlock {
     display:flex;
-     
+    margin-top: 20px;
 }
     
 .leftBlock img {
@@ -350,7 +350,7 @@ font-size:15px;
 }
 .RightBlock {
     width: 200px;
-    height: 300px;
+    height: 255px;
     font-size: 8px;
 }
 .RightBlock input {
@@ -413,7 +413,7 @@ button {
     
       .callNav img {
         width: 20px;
-        padding-bottom: 30px;
+        padding-bottom: 0px;
       }
     
       .menu {
@@ -495,7 +495,7 @@ button {
       .footerCards {
         flex-direction: column;
         margin: 0 auto;
-        height: 40vh;
+        height: 28vh;
         align-items: center;
         justify-content: start;
     }

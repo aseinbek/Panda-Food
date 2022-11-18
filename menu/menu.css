@@ -164,6 +164,7 @@ a {
 
 .storeCards img:hover{
   transform: scale(1.1);
+  transition: 1.5s;
 }
 .storeContent h3:hover{
   color: red;
@@ -189,6 +190,7 @@ a {
   margin: 30px 0px 30px;
   border:1px solid rgb(117, 116, 116); 
   padding: 220px 0px;
+  
 }
 
 
@@ -400,7 +402,7 @@ background-color: rgba(238, 238, 238, 0.5);
 
 .swiperText h3:hover{
   transition: 0.5s;
-  font-size: 20px;
+  font-size: 16px;
   cursor: pointer;
   color: red;
 }
@@ -418,6 +420,7 @@ button a{
 button:hover{
   background-color: #ffcd00;
   transform: scale(1.1);
+  transition: 1.1s;
 }
 
 
@@ -440,21 +443,35 @@ button:hover{
 .callNav img {
     width: 40px;
 }
+.menu li a {
+  font-size: 18px;
+}
 
   /* новинки */
-
+  .storeContent {
+    height: 50vh;
+    margin: 0px 15px 200px;
+    padding: 0px;
+}
   .card img {
     width: 100%;
     height: 200px;  
     border-radius: 20px;
   }
+  .card {
+    width: 30%;
+    height: 300px;
+    margin: 0 auto;
+    padding: 0px 10px;
+}
   
 
   /* ******ГОр.БЛЮДО***** */
 
   .mainBlock{
-    background-size: 100%;
     height: 500px;
+    margin: 10px 30px 200px;
+    padding: 0px;
   }
   .mainBlockText {
     width: 300px;
@@ -505,6 +522,11 @@ button:hover{
 
 /* swiper */
 
+
+.swiper-slide img {
+  width: 100%;
+  height: 200px;
+}
 .swiperText {
  width: 100%;
  font-size: 12px;
@@ -512,6 +534,7 @@ button:hover{
 .swiperText p{
 font-size: 10px;
 text-align: justify;
+
 }
 
  
@@ -535,7 +558,7 @@ text-align: justify;
 }
 
 .menu li a {
-    font-size: 15px;
+    font-size: 10px;
 }
 
 
