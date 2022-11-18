@@ -255,17 +255,25 @@ button{
 
     /* ----------------------- */
 
+    .flexSety{
+        flex-direction: column;
+        justify-content: center;
+    }
+
     .jara .img{
-        width: 400px;
+        margin: 0px 300px;
+        width: 500px;
         height: 400px;
     }
     
     .ogayo .img{
+        margin: 0px 300px;
         width: 400px;
         height: 400px;
     }
     
     .filadelfia .img{
+        margin: 0px 300px;
         width: 400px;
         height: 400px
     }
