@@ -8,29 +8,31 @@
     <link rel="stylesheet" href="./korn.css">
 </head>
 <body>
-    <nav>
-        <div class="navContent">
-            <div class="logoNav">
-                <img src="./img/pandafood.png">
-            </div>
-            <div class="menuNav">
-                <ol>
-                    <a href="#"><li>Меню</li></a>
-                    <a href="#"><li>Новинки</li></a>
-                    <a href="#"><li>Акции</li></a>
-                    <a href="#"><li>Доставка</li></a>
-                    <a href="#"><li>О нас</li></a>
-                </ol>
-            </div>
-            <div class="callNav">
-                <a href="tel:+996999090942">
-                    <img src="./img/callNav.png">
-                </a>
-            </div>
-        
-        </div>
-        
-    </nav>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <section class="top-nav">
+    <div class="logo">
+        <a href="/main.html">
+            <img src="./img/pandafood.png">
+        </a>
+    </div>
+    <input id="menu-toggle" type="checkbox" />
+    <label class='menu-button-container' for="menu-toggle">
+    <div class='menu-button'></div>
+  </label>
+    <ul class="menu">
+      <li><a href="./menu/menu.html">Меню</a></li>
+      <li><a href="#">Новинки</a></li>
+      <li><a href="./stock.html">Акции</a></li>
+      <li><a href="./deliver.html">Доставка</a></li>
+      <li><a href="/reserv/reserv.html">Забронировать</a></li>
+      <li><a href="./about.html">О нас</a></li>
+    </ul>
+    <div>
+      <a href="tel:+996999090942"  class="callNav">
+        <img src="./img/callNav.png">
+      </a>
+    </div>
+  </section>
     <main>
         <div class="main">
             <h1>Корн-дог</h1>
