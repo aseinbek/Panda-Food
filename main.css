@@ -133,6 +133,10 @@ html, body {
     box-shadow: 1px 1px 20px rgb(128, 127, 127);
 }
 
+.aboutRight p {
+    line-height: 30px;
+}
+
 .aboutLeft {
     width: 40%;
     height: 75vh;
@@ -1206,10 +1210,10 @@ html, body {
     /* ------------------- */
 
     .storeCards {
-        display: flex;
         margin-top: 0px;
         width: 95%;
         flex-direction: column;
+        height: 1100px;
     }
 
     .card {
@@ -1220,15 +1224,15 @@ html, body {
     }
 
     .cardImg1 {
-        height: 80%;
+        height: 250px;
     }
 
     .cardImg2 {
-        height: 80%;
+        height: 250px;
     }
 
     .cardImg3 {
-        height: 80%;
+        height: 250px;
     }
 
     .storeContent {
